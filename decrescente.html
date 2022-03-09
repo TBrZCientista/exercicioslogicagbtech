@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+    
+    function mostra(frase) {
+        
+        document.write(frase);
+        pulaLinha();
+    }
+    
+    var primNum = 20;
+    var ultNum = 0;
+    
+    alert("Vamos ver os números em ordem decrescente de 20 a 0!!!");
+    
+    while (primNum >= ultNum){
+        
+        mostra(primNum);
+        primNum = primNum - 1;
+    }
+    
+    mostra("FIM");
+</script>

@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+
+<script>
+    function pulaLinha() {
+        
+        document.write("<br>");
+        
+    }
+    
+    function mostra(frase) {
+        
+        document.write(frase);
+        pulaLinha();
+    }
+    
+    var primNum = 30;
+    
+    
+    alert("Vamos ver os números entre 30 e 40, exceto 33 e 37.");
+    
+    while(primNum <= 40){
+        
+        if(primNum == 33){
+            primNum = primNum + 1;
+        }
+        if(primNum == 37){
+            primNum = primNum + 1;
+        }
+        else {
+            mostra(primNum);
+            primNum = primNum + 1;
+        }
+    }
+    
+        
+    mostra("FIM");
+    
+</script>

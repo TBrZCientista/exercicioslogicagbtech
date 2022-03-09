@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+    var primeiroAno = 1500;
+    var anoAtual = 2022;
+    var mediaAno = anoAtual - primeiroAno;
+    var quantGeracoes = mediaAno/28;
+    
+    mostra("<h2>" + "Vamos descobrir quantas gerações temos desde o Descobrimento do Brasil?" +"</h2>");
+    pulaLinha();
+    mostra("Primeiro, mostramos o ano do descobrimento: " + primeiroAno);
+    pulaLinha();
+    mostra("Agora mostramos o ano atual " + anoAtual);
+    pulaLinha();
+    mostra("Agora, vamos calcular quantos anos se passaram?");
+    pulaLinha();
+    mostra("Para isso, pegamos o ano atual " + anoAtual + " e subtraimos o ano do descobrimento " + primeiroAno);
+    pulaLinha();
+    mostra("Temos então " + mediaAno);
+    pulaLinha();
+    mostra("Agora para descobrirmos quantas gerações tivemos, temos que pegar o resultado anterior, e dividir por 28");
+    pulaLinha();
+    mostra("Teremos então " + Math.round(quantGeracoes) + " gerações até o ano atual.");
+</script>

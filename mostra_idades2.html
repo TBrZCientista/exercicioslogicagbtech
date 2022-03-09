@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<hr>");
+        document.write("<br>")
+    }
+    function mostra(frase) {
+        document.write("<big>" + frase + "</big>");
+        pulaLinha();
+    }
+    
+    var ano = 2022;
+    
+    mostra("<h3>" + "Em que ano nasceram as pessoas da minha família?" + "</h3>");
+    pulaLinha();
+    mostra("Eu nasci em " + (ano - 34) + ".");
+    pulaLinha();
+    mostra("Minha esposa nasceu em " + (ano - 33) + ".");
+    pulaLinha();
+    mostra("Teteco nasceu em " + (ano - 3) + ".");
+    
+</script>
